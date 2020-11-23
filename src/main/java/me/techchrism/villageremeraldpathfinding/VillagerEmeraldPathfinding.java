@@ -24,7 +24,7 @@ public class VillagerEmeraldPathfinding extends JavaPlugin
                     {
                         if(entity instanceof Villager)
                         {
-                            ((Villager) entity).getPathfinder().moveTo(player);
+                            ((Villager) entity).getPathfinder().moveTo(player, 0.65);
                         }
                     }
                 }
